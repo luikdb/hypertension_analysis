@@ -1,16 +1,26 @@
 # **Biostatistical Analysis of Hypertension in Dahl Rat Models**
-**By: Lui Kirtan Deori Bharali**
+**by Lui Kirtan**
 
 ---
 
 ## **Overview**
-This project explores **salt-sensitive hypertension (SS-HT)** using **Dahl-SS** and **SSBN13** rat models to understand how dietary salt impacts blood pressure and how genetic variations influence salt sensitivity. The goal is to gain insights into the multifactorial nature of SS-HT, focusing on both **renal** and **extrarenal** factors.
+This study explores the impact of dietary salt on blood pressure across different genetic strains, with a focus on uncovering underlying patterns. Data preprocessing involved visualizing and refining the dataset to remove potential outliers, setting the stage for a deeper analysis. Statistical methods were employed to examine the influence of salt intake and genetic factors on blood pressure, revealing intriguing insights into the complexity of salt-sensitive hypertension. **There is also a PDF attached for more detailed explanation.**
 
 ---
 
 ## **Data Processing & Visualization**
 - **Box Plots**: Visualize blood pressure data across groups (SS & SSBN13, Low Salt & High Salt).
 - **Outlier Removal**: Outliers were detected using the **Interquartile Range (IQR)** method and filtered out.
+
+---
+
+<!-- Aligning two images side by side with 50% width each -->
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/user-attachments/assets/d9f470b9-e316-49b7-a909-cb7d685e25f6" alt="SSBN13-No-Outlier" style="width: 49%;"/>
+  <img src="https://github.com/user-attachments/assets/af6c588b-9300-4942-a8fe-7f24f131f1a7" alt="SS-No-Outlier" style="width: 49%;"/>
+</div>
+
+*Figure 1: Side-by-side comparison of cleaned blood pressure data of salt resistive and salt sensitive rats*
 
 ---
 
@@ -49,11 +59,3 @@ Access the dataset used in this study:
 - Libraries: 'ggplot', 'dplyr', 'tidyr', 'multcomp', 'knitr'
 
 ---
-
-## **Getting Started**
-Clone the repository and install dependencies:
-
-```bash
-git clone https://github.com/yourusername/Biostatistical-Analysis-of-Hypertension.git
-cd Biostatistical-Analysis-of-Hypertension
-pip install -r requirements.txt
