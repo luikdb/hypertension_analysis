@@ -8,6 +8,12 @@ This study explores the impact of dietary salt on blood pressure across differen
 
 ---
 
+## **Dataset**
+
+It is a time-series dataset of blood pressure measurements collected from different groups of rats subjected to various diets, including salt-sensitive low and high-salt diets, as well as salt-resistant low and high-salt diets.
+[Blood Pressure in Salt-Sensitive Dahl Rats](https://physionet.org/content/bpssrat/1.0.0/) 
+---
+
 ## **Data Processing & Visualization**
 - **Box Plots**: Visualize blood pressure data across groups (SS & SSBN13, Low Salt & High Salt).
 - **Outlier Removal**: Outliers were detected using the **Interquartile Range (IQR)** method and filtered out.
@@ -48,9 +54,7 @@ The study reinforces the critical role of dietary salt in regulating blood press
 
 ---
 
-## **Dataset**
-Access the dataset used in this study:
-[Blood Pressure in Salt-Sensitive Dahl Rats](https://physionet.org/content/bpssrat/1.0.0/)
+
 
 ---
 
